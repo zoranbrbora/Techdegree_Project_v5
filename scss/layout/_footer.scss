@@ -1,0 +1,62 @@
+/* 
+=============================
+FOOTER
+=============================
+*/
+
+.main-footer,
+.footer-nav {
+  display: flex;
+}
+
+.main-footer {
+  @extend %main-footer;
+  
+}
+
+// Footer Navigation
+
+.footer-nav {
+  display: none;
+  font-weight: $font-weight--semi-bold;
+  @include mq(medium) {
+    display:inherit;
+    margin-right: em(-10px);
+  }
+}
+
+// Footer Name
+
+.name-footer {
+    font-weight: $font-weight--bold;
+    color: $footer-name-color;
+}
+
+// Footer Links
+
+.footer-nav a {
+  @include mq(medium) {
+    margin-right: em(10px); 
+    text-transform: uppercase;
+    color: #203864;
+    font-weight: bold;
+  }
+}
+
+// Back To Top
+
+.top {
+    @extend %back-to-top;
+    @include mq(medium) {
+       display: none;
+    }
+  }
+
+
+
+
+
+
+  
+
+

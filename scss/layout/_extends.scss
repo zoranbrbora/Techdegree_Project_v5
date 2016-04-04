@@ -1,0 +1,65 @@
+// =================================
+// Placeholders
+// =================================
+
+
+// Logo Placeholder
+
+%logo {
+  padding-top: 1em;
+  font-size: 2em;
+  align-self: center;
+  color: $color-logo;
+  font-weight: $font-weight--bold;
+}
+
+// Col Titles Placeholder Extended On: Title,Gallery-Title and Text-col
+
+%title-col {
+  font-size: 1.3em;
+  line-height: 1.3em;
+  padding: 1em 3em;
+}
+
+
+
+
+%title {
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  text-transform: uppercase;
+  color: $title-color;
+  font-weight: $font-weight--bold;
+}
+
+%gallery-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: em(30px);
+  color: $gallery-title-color;
+  font-weight: $font-weight--bold;
+}
+
+// Footer Placeholder
+
+%main-footer {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: em(20px) em(30px);
+  margin-top: em(30px);
+  margin-bottom: em(30px);
+}
+
+// Back To Top Placeholder
+
+%back-to-top {
+    display: block;
+    float: right;
+    font-size: .8em;
+    text-transform: uppercase;
+    font-weight: $font-weight--semi-bold;
+    color: $back-to-top-color;
+}
+

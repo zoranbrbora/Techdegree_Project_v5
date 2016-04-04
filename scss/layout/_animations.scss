@@ -1,0 +1,53 @@
+
+// Gallery Site Animation
+
+.card,
+.card img { 
+  width: em(70px); 
+  height: em(70px);
+  transition: 1s transform ease-out;
+  @include mq(large) {
+    width: em(140px); 
+    height: em(140px);
+  }
+}
+
+.card { 
+  margin: 0 auto em(300px) auto; 
+  @include mq(large) {
+    margin: 50px auto em(600px) auto;
+  }
+}
+
+.card img { 
+  border: em(1px) solid $card-color;
+  box-shadow: em(12px) em(12px) em(10px) rgba($black, 0.5);
+  position: absolute;
+  transform-origin: center em(150px);
+  @include mq(large) {
+    transform-origin: center em(300px);
+  }
+}  
+
+
+// Rotating Images
+
+div.card:hover img:first-child {
+transform: $first-image-rotate
+}
+
+div.card:hover img:nth-child(2) {
+transform: $second-image-rotate
+}
+
+div.card:hover img:nth-child(3) {
+transform: $third-image-rotate
+}
+
+div.card:hover img:nth-child(4) {
+transform: $fourth-image-rotate
+}
+
+div.card:hover img:nth-child(5) {
+transform: $fifth-image-rotate
+}

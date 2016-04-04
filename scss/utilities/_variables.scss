@@ -1,0 +1,86 @@
+
+
+// Font Stacks
+
+$font-url--google        : 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,800,600';
+$font-family--primary    : 'Open Sans', sans-serif;
+
+
+// Font Weights
+
+$font-weight--light        : 300;
+$font-weight--light-italic : 300italic;
+$font-weight--medium       : 400;
+$font-weight--semi-bold    : 600;
+$font-weight--bold         : 700;
+$font-weight--extra-bold   : 800;
+
+
+
+// Descriptive Color Variables
+
+$white          : #fff;
+$black          : #000;
+$blizzard-blue  : #a3e3ed;
+$alicia-blue    : #f0f8ff; 
+$cello          : #203864;
+$st-tropaz      : #2f5597;
+
+// Color Usage
+
+$color-primary: $blizzard-blue;
+
+$color-logo: $cello;
+
+$button-color: $black;
+$button-background-color: $white;
+
+$border-color: $black;
+$color-navlist: $cello;
+$background-nav: $alicia-blue;
+
+$card-color: $white;
+
+$title-color: $cello;
+$gallery-title-color: $cello;
+
+$text-color: $st-tropaz;
+$tutorial-text-color: $st-tropaz;
+$span-color: $cello;
+
+$card-color: $white;
+
+$footer-name-color: $cello;
+$back-to-top-color: $cello;
+
+// Text
+
+$base__font-size: 16px;
+$base__line: 24px;
+
+
+  
+// Border Radius
+  
+$br-radius-navlist: 3%;  
+
+// Images Rotation
+
+$first-image-rotate: rotate(55deg);
+$second-image-rotate: rotate(115deg);
+$third-image-rotate: rotate(-55deg);
+$fourth-image-rotate: rotate(-115deg);
+$fifth-image-rotate: rotate(-180deg);
+
+
+// Breakpoints Min-Width
+
+$brkpoint-sm    : 1px;
+$brkpoint-md    : 768px;
+$brkpoint-lg    : 1024px;
+
+
+
+
+
+

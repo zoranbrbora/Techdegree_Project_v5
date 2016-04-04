@@ -1,0 +1,58 @@
+// Drop Down Menu Button
+
+#menu {
+  align-self: center;
+  margin-top: em(20px);
+  color: $button-color;
+  display: none;
+  @include phone {
+      width:1.4em;
+      display: block;
+      background: $button-background-color;
+      font-size: 1.35em;
+      text-align: center;
+  }
+}
+
+#nav.js {
+  @include phone {
+    display: none;
+  }
+}
+
+ul {
+  @include phone {
+    width:100%;
+    list-style:none;
+  }
+}
+
+li {
+  @include phone {
+    width:100%;
+    border-right:none;
+  }
+}
+
+// Navigation Buttons
+
+.main-nav li a {
+    @extend %btn;
+    @include mq(medium) {
+      border: none;
+      background: none;
+    }
+    @include mq(large) {
+      margin: 0 0 0 30px;
+      padding: 0;
+    }
+	}
+
+
+
+
+
+
+
+
+ 
