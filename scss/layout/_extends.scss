@@ -7,7 +7,7 @@
 
 %logo {
   padding-top: 1em;
-  font-size: 2em;
+  font-size: em(33px);
   align-self: center;
   color: $color-logo;
   font-weight: $font-weight--bold;
@@ -16,7 +16,7 @@
 // Col Titles Placeholder Extended On: Title,Gallery-Title and Text-col
 
 %title-col {
-  font-size: 1.3em;
+  font-size: em(23px);
   line-height: 1.3em;
   padding: 1em 3em;
 }
@@ -57,7 +57,7 @@
 %back-to-top {
     display: block;
     float: right;
-    font-size: .8em;
+    font-size: em(13px);
     text-transform: uppercase;
     font-weight: $font-weight--semi-bold;
     color: $back-to-top-color;
