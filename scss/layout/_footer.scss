@@ -38,7 +38,7 @@ FOOTER
   @include mq(medium) {
     margin-right: em(10px); 
     text-transform: uppercase;
-    color: #203864;
+    color: $footer-links-color;
     font-weight: bold;
   }
 }
