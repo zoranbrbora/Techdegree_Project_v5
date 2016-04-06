@@ -60,7 +60,7 @@ CONTACT PAGE
   text-align: center;  
   
   .text {
-    font-size: 1.1em;
+    font-size: em(19px);
     line-height: 1.3em;
     padding: 1em 2.1em;
   } 
@@ -93,7 +93,7 @@ TUTORIAL PAGE
 
 
 .tutorial-text {
-  font-size: 1.3em;
+  font-size: em(23px);
   line-height: 1.3em;
   padding: 1em;
   text-align: center;
