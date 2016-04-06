@@ -9,11 +9,11 @@
     display: inline-block;
     width: 70%;
     padding: 8px;
-    border: 1px solid black;
+    border: 1px solid $black;
     border-radius: 3%;
     text-decoration: none;
     text-transform: uppercase;
-    color: #203864;
+    color: $color-navlist;
     background-color: $background-nav;
     font-weight: bold;
 }
