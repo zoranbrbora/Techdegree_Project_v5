@@ -9,7 +9,7 @@
       width:1.4em;
       display: block;
       background: $button-background-color;
-      font-size: em(24px);
+      font-size: em($font-size--menu);
       text-align: center;
   }
 }
