@@ -24,13 +24,13 @@
 }
 
 .intro-text {
-  font-size: em(19px);
+  font-size: em($font-size--intro);
   line-height: 1.3em;
   padding: 1em;
   text-align: center;
   @include mq(medium) {
     text-align: left;
-    font-size: em(22px);
+    font-size: em($font-size--intro-tablet);
     padding-top: 0;
   }
   @include mq(large) {
